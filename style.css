@@ -1,0 +1,30 @@
+
+body {
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    padding: 0;
+}
+
+#grid-container {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    border: solid;
+
+    min-width: 30%;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.grid-item {
+    flex: 1;
+    min-height: 100%; /* Add this line to stretch the div in height */
+}
